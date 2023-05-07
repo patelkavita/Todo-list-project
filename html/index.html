@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/style.css">
+    <title>To-do List app</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header> <h1>Todo List</h1></header>
+        <main class="main">
+            <section class="entry">
+                <form class="entryPoint">
+                    <input type="text" placeholder="Enter any task" class="task">
+                    <select name="" id="select" class="priority">
+                        <option value="">Select Priority</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                    <button class="submit btn">Submit</button>
+                </form>
+            </section>
+
+            <section class="update">
+                <table class="updatePoint">
+                     <thead>
+                         <tr>
+                             <th>Priority</th>
+                             <th>Task</th>
+                            <th>Incomplete Task</th>
+                         </tr>
+                    </thead>
+                 <tbody class="tbody"></tbody>     
+                </table>
+            </section>
+           
+             <section class="completed">
+                <div class="exitPoint">
+                    <table class="task">
+                         <thead>
+                            <tr>
+                                <th>Priority</th>
+                                <th>Task</th>
+                               <th>Completed Task</th>
+                            </tr>
+                         </thead>
+                        <tbody class="completedTBody"></tbody>
+                    </table>
+                </div>       
+            </section>  
+        </main>
+    </div>
+</body>
+<script src="./../javascript/script.js"></script>
+</html>

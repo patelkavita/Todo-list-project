@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body .wrapper {
+    background-color: pink;
+    border-radius: 20px;
+    border: 2px solid red;
+    height: auto;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 2rem;
+}
+
+body header{
+    color: rgb(124, 88, 230);
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: bisque;
+}
+
+body .main{
+    margin: 15px 20px;
+    height: auto;
+}
+
+/************ Entry ***********/
+.main .entry{
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 1.5rem 0;
+}
+
+.entry .entryPoint{
+    display: block;
+}
+
+.entryPoint input{
+    padding: 0.5rem;
+    width: 400px;
+    display: inherit;
+    margin: 0px auto 15px auto;
+}
+
+.entryPoint select{
+    display: inherit;    
+    margin: 0px auto 15px auto;
+    font-size: 1rem;
+    width: 250px;
+    padding: 0.5rem;
+}
+
+.entryPoint .submit{
+    margin: 0 auto;
+    display: block;
+    padding: 0.6rem 2rem;
+    background-color: rgb(232, 222, 137);
+}
+
+/*********** Update *******/
+.main .update{
+    background-color: aliceblue;
+    max-width: 600px;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.update .updatePoint {
+ border: 1px solid black;
+ margin: 0px auto;
+}
+
+.update .updatePoint thead{
+    color: red;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: skyblue;
+}
+
+.updatePoint thead tr th{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(236, 106, 106); 
+}
+
+.updatePoint .tbody{
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+/************ Completed **********/
+
+.main .exitPoint{
+    background-color: aliceblue;
+    max-width: 600px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.exitPoint .task{
+    margin: 10px auto;
+    border: 1px solid pink;
+}
+.exitPoint .task th{
+    border: 1px solid red;
+    padding: 0.5rem 1rem;
+    background-color: green;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.exitPoint tbody{
+    text-align: center;
+}
